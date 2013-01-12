@@ -39,7 +39,10 @@ TBD
 
 ## References
 
-[Guenter Stertenbrink's Sudoku page](http://magictour.free.fr/sudoku.htm)
+- [Guenter Stertenbrink's Sudoku page](http://magictour.free.fr/sudoku.htm)
+- [http://mypuzzle.org/sudoku](http://mypuzzle.org/sudoku)
+- [Sudoku Puzzles.net](http://www.sudoku-puzzles.net/)
+- [My links about Sudoku](http://delicious.com/ajlopez/sudoku)
 
 ## Contribution
 
