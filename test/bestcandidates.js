@@ -61,3 +61,10 @@ assert.equal(best.candidates.length, 6);
 assert.ok(best.candidates.indexOf(1) < 0);
 assert.ok(best.candidates.indexOf(2) < 0);
 assert.ok(best.candidates.indexOf(3) < 0);
+
+// No best candidates
+
+var game = simplesudoku.createGame();
+game.load(".234567891");
+var result = game.getBestCandidates(0, 0);
+assert.equal(result, null);

@@ -20,7 +20,7 @@ for (var x = 0; x < 9; x++)
 
 game.setNumber(1, 1, 1);
 
-var result = game.getCandidates(1, 1);
+var result = game.getCandidates(1, 0);
 assert.ok(result);
 assert.equal(result.length, 8);
 assert.ok(result.indexOf(1) < 0);
@@ -57,3 +57,12 @@ assert.ok(result);
 assert.equal(result.length, 7);
 assert.ok(result.indexOf(1) < 0);
 assert.ok(result.indexOf(2) < 0);
+
+// No candidates
+
+var game = simplesudoku.createGame();
+game.load(".234567891");
+var result = game.getCandidates(0, 0);
+assert.ok(result);
+assert.equal(result.length, 0);
+
