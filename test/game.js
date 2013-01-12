@@ -27,3 +27,4 @@ assert.equal(game.getNumber(0, 0), 1);
 game.setNumber(0, 1, 2);
 assert.equal(game.getNumber(0, 1), 2);
 assert.equal(game.getNumber(0, 2), null);
+
