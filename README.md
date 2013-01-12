@@ -47,6 +47,10 @@ npm test
 - [Sudoku Puzzles.net](http://www.sudoku-puzzles.net/)
 - [My links about Sudoku](http://delicious.com/ajlopez/sudoku)
 
+## Versions
+
+- 0.0.1: Published
+
 ## Contribution
 
 Feel free to [file issues](https://github.com/ajlopez/SimpleSudoku) and submit
