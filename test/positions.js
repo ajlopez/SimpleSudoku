@@ -30,17 +30,19 @@ function contains(positions, position) {
     return false;
 }
 
-var positions = simplesudoku.getPositions(0, 0);
+function check(px, py) {
+    var positions = simplesudoku.getPositions(px, py);
 
-for (var x = 0; x < 3; x++)
-    for (var y = 0; y < 3; y++)
-        if (x !== 0 || y !== 0)
-            assert.ok(contains(positions, { x: x, y: y }));
+    var x0 = Math.floor(px / 3) * 3;
+    var y0 = Math.floor(py / 3) * 3;
 
-var positions = simplesudoku.getPositions(2, 2);
+    for (var x = 0; x < 3; x++)
+        for (var y = 0; y < 3; y++)
+            if (x0 + x !== px || y0 + y !== py)
+                assert.ok(contains(positions, { x: x0 + x, y: y0 + y }));
+}
 
-for (var x = 0; x < 3; x++)
-    for (var y = 0; y < 3; y++)
-        if (x !== 2 || y !== 2)
-            assert.ok(contains(positions, { x: x, y: y }));
+for (var x = 0; x < 9; x++)
+    for (var y = 0; y < 9; y++)
+        check(x, y);
 

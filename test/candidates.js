@@ -30,12 +30,20 @@ assert.ok(result);
 assert.equal(result.length, 8);
 assert.ok(result.indexOf(1) < 0);
 
-var result = game.getCandidates(8, 0);
+var result = game.getCandidates(8, 1);
 assert.ok(result);
 assert.equal(result.length, 8);
 assert.ok(result.indexOf(1) < 0);
 
-var result = game.getCandidates(0, 8);
+var result = game.getCandidates(1, 8);
 assert.ok(result);
 assert.equal(result.length, 8);
 assert.ok(result.indexOf(1) < 0);
+
+var result = game.getCandidates(8, 0);
+assert.ok(result);
+assert.equal(result.length, 9);
+
+var result = game.getCandidates(0, 8);
+assert.ok(result);
+assert.equal(result.length, 9);
