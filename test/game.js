@@ -14,6 +14,12 @@ for (var x = 0; x < 9; x++)
     for (var y = 0; y < 9; y++)
         assert.equal(game.getNumber(x, y), null);
 
+// No numbers
+
+var positions = game.getNumberPositions();
+assert.ok(positions);
+assert.equal(positions.length, 0);
+
 // Set number
 
 game.setNumber(0, 0, 1);
