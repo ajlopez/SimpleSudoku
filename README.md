@@ -37,6 +37,10 @@ TBD
 
 - Samples
 
+## References
+
+[Guenter Stertenbrink's Sudoku page](http://magictour.free.fr/sudoku.htm)
+
 ## Contribution
 
 Feel free to [file issues](https://github.com/ajlopez/SimpleSudoku) and submit
