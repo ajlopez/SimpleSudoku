@@ -31,8 +31,8 @@ npm test
 
 ## Samples
 
-[Solve](https://github.com/ajlopez/SimpleSudoku/tree/master/samples/solve) Solve puzzle.
-[Solve File](https://github.com/ajlopez/SimpleSudoku/tree/master/samples/solvefile) Solve puzzles in file.
+- [Solve](https://github.com/ajlopez/SimpleSudoku/tree/master/samples/solve) Solve puzzle.
+- [Solve File](https://github.com/ajlopez/SimpleSudoku/tree/master/samples/solvefile) Solve puzzles in file.
 
 ## To do
 
