@@ -6,7 +6,7 @@ game.load(process.argv[2]);
 
 console.log(game.asString());
 
-var solution = game.solve();
+var solution = game.solveSync();
 
 if (!solution)
     console.log("No solution");

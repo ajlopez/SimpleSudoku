@@ -31,11 +31,14 @@ npm test
 
 ## Samples
 
-TBD
+[Solve](https://github.com/ajlopez/SimpleSudoku/tree/master/samples/solve) Solve puzzle.
+[Solve File](https://github.com/ajlopez/SimpleSudoku/tree/master/samples/solvefile) Solve puzzles in file.
 
 ## To do
 
-- Samples
+- Browser sample
+- Web site demo
+- Asynchronous processing
 
 ## References
 
