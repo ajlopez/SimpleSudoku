@@ -47,3 +47,13 @@ assert.equal(result.length, 9);
 var result = game.getCandidates(0, 8);
 assert.ok(result);
 assert.equal(result.length, 9);
+
+// Put a second number
+
+game.setNumber(2, 2, 2);
+
+var result = game.getCandidates(0, 0);
+assert.ok(result);
+assert.equal(result.length, 7);
+assert.ok(result.indexOf(1) < 0);
+assert.ok(result.indexOf(2) < 0);
